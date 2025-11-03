@@ -1,5 +1,5 @@
 return {
-  normal_fg = "#E4DFC0",
+  normal_fg = "#AAAAAA",
   float_fg = "#D6DDEA",
   nontext_fg = "#363848",
   comment_fg = "#474B65",
