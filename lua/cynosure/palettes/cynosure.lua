@@ -17,13 +17,13 @@ return {
   -- accent
   v_select = "#13214B",
   v_select_nontext = "#32416F",
-  string = "#74BAA8",
-  raw_string = "#0EC256",
+  string = "#D2FFB9",
+  raw_string = "#B2D89D",
   cursor = "#5DCD9A",
   operator = "#b09884",
   constant = "#BCB6EC",
-  keyword = "#A9B9EF",
-  important = "#6A8BE3",
+  keyword = "#9C7514",
+  important = "#408FAF",
   search = "#E9B872",
   number = "#B85B53",
 
