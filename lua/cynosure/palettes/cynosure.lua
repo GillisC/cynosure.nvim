@@ -1,12 +1,12 @@
 return {
-  normal_fg = "#CCD5E5",
+  normal_fg = "#E4DFC0",
   float_fg = "#D6DDEA",
   nontext_fg = "#363848",
   comment_fg = "#474B65",
   quote_fg = "#7E8193",
 
   -- background
-  normal_bg = "#191d23",
+  normal_bg = "#170F03",
   panel_bg = "#1B1F25",
   float_bg = "#1C2127",
   normal_bg_alt = "#20252E",

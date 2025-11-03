@@ -1,4 +1,4 @@
-local c = require("techbase.palettes.techbase")
+local c = require("cynosure.palettes.cynosure")
 
 return {
   normal = {
