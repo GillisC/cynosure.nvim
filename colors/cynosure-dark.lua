@@ -9,24 +9,24 @@ local colors = {
     yellow = "#FCE094",
     red = "#FFC0B9",
     slate = "#718096",
-    comment = "#40495a",
+    comment = "#5a697a",
     orange = "#d7935b",
     cyan = "#52becc",
     cream = "#ffeab7",
     grey = "#939bad",
 }
 
--- my name is tim
+------ this needs to be updated -------
 vim.cmd("hi clear")
 if vim.fn.exists("syntax_on") then vim.cmd("syntax reset") end
 vim.o.background = "dark"
 vim.g.colors_name = "cynosure-dark"
+---------------------------------------
 
 local hl = function(group, opts)
     vim.api.nvim_set_hl(0, group, opts)
 end
 
--- WIP
 hl("Normal",  { fg = colors.fg, bg = colors.bg })
 hl("Comment", { fg = colors.comment, italic = true })
 hl("Visual",  { bg = colors.bg_lighter })
